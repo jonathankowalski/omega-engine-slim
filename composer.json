@@ -1,0 +1,21 @@
+{
+    "name": "omega/engine-slim",
+    "description": "Slim Engine for Omega",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jonathan Kowalski",
+            "email": "jonathan.kowalski@laposte.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Omega\\Engines\\": "src/"
+        }
+    },
+    "require": {
+        "omega/core": "^1.0",
+        "slim/slim": "4.x-dev"
+    }
+}
